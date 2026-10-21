@@ -17,16 +17,17 @@ This project is part of my journey learning Python, including modules, functions
 ## Project Structure
 
 CHATBOTV1/
-├── main/
+├── start/
 │   ├── __init__.py
 │   └── chatbot.py
-├── options/
+├── src/
 │   ├── __init__.py
 │   ├── greeting.py
 │   ├── jokes.py
 │   ├── wheather.py
 │   └── cheese.py
 ├── .gitignore
+├──__init__.py
 └── README.md
 
 The `chatbot_history.json` file is generated when the program saves its history.
@@ -37,7 +38,6 @@ Make sure Python is installed.
 
 Open a terminal in the directory containing the `CHATBOTV1` folder and run:
 
-bash
 python -m CHATBOTV1.main.chatbot
 
 ## Purpose
@@ -51,4 +51,3 @@ This project is a learning exercise to practise Python programming, organising c
 * Add a command to view previous chat history
 * Expand the chatbot's conversational abilities
 
----
