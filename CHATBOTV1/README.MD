@@ -16,19 +16,7 @@ This project is part of my journey learning Python, including modules, functions
 
 ## Project Structure
 
-CHATBOTV1/
-├── start/
-│   ├── __init__.py
-│   └── chatbot.py
-├── src/
-│   ├── __init__.py
-│   ├── greeting.py
-│   ├── jokes.py
-│   ├── wheather.py
-│   └── cheese.py
-├── .gitignore
-├──__init__.py
-└── README.md
+CHATBOTV1/ → start/ → init.py, chatbot.py; src/ → init.py, greeting.py, jokes.py, wheather.py, cheese.py; .gitignore; init.py; README.md
 
 The `chatbot_history.json` file is generated when the program saves its history.
 
